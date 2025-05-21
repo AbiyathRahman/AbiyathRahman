@@ -49,7 +49,7 @@ A HIPAA-compliant platform for managing healthcare appointments with role-based 
   - Containerized deployment with Docker and CI/CD pipeline
   - Responsive Material-UI frontend
   - Analytics dashboard for administrators
-- [View Project](https://github.com/AbiyathRahman/AppointmentSystem2.0)
+- [View Project](https://github.com/AbiyathRahman/appointment-system)
 
 ### Shared Expense Manager
 A full-stack application to manage and split group expenses efficiently.
@@ -61,7 +61,7 @@ A full-stack application to manage and split group expenses efficiently.
   - Stateless authentication with middleware security
   - Greedy settlement algorithm for minimal transactions
   - Color-coded balance visualization
-- [View Project](https://github.com/AbiyathRahman/shared-expense-manager)
+
 
 ## 💼 Professional Experience
 
