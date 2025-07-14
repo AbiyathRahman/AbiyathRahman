@@ -54,16 +54,41 @@ A HIPAA-compliant platform for managing healthcare appointments with role-based 
 ### InsightPulse
 InsightPulse is an AI-powered productivity dashboard that connects to your Google Calendar and helps you manage your tasks with real-time NLP insights using Claude v2.1 via AWS Bedrock.
 Built with a modern full-stack architecture, InsightPulse gives personalized suggestions, detects overload, and recommends smart focus intervals. All deployed via docker on render and vercel
-- **Tech Stack**: Frontend: React (Vite), Axios, JWT Auth, Vercel Hosting
-Backend: Spring Boot 3, PostgreSQL, AWS Bedrock (Claude v2.1), Google Calendar API, Docker + Render
- Features
-🧠 Claude v2.1 AI Integration – Generates intelligent summaries and workload insights from your tasks and calendar.
-📅 Google Calendar Sync – Secure OAuth 2.0 integration to pull and analyze your real calendar events.
-✅ Task Management System – CRUD functionality with user-specific authentication via JWT.
-🍅 Productivity Insights – Detects overload, recommends Pomodoro-style breaks, and suggests weekly optimizations.
-📬 (Coming Soon) – Weekly AI-generated email summaries via CRON jobs.
-🐳 Fully Containerized – Dockerized backend deployed on Render with CI-ready setup.
-🖥️ Modern Frontend UI – Responsive React bento box layout with real-time sync and session persistence.
+**Frontend**  
+- React (Vite)  
+- Axios  
+- JWT Auth  
+- Vercel Hosting
+
+**Backend**  
+- Spring Boot 3  
+- PostgreSQL  
+- AWS Bedrock (Claude v2.1)  
+- Google Calendar API  
+- Docker + Render
+
+
+## ✨ Features
+
+- 🧠 **Claude v2.1 AI Integration**  
+  Generates intelligent summaries and workload insights from your tasks and calendar.
+  
+- 📅 **Google Calendar Sync**  
+  Secure OAuth 2.0 integration to pull and analyze your real calendar events.
+
+- ✅ **Task Management System**  
+  CRUD functionality with user-specific authentication via JWT.
+
+- 🍅 **Productivity Insights**  
+  Detects overload, recommends Pomodoro-style breaks, and suggests weekly optimizations.
+
+- 📬 **(Coming Soon)** – Weekly AI-generated email summaries via CRON jobs
+
+- 🐳 **Fully Containerized**  
+  Dockerized backend deployed on Render with CI-ready setup.
+
+- 🖥️ **Modern Frontend UI**  
+  Responsive React bento box layout with real-time sync and session persistence.
 - [Check it out here!](https://ai-task-manager-frontend-beta.vercel.app)
 
 
